@@ -5,8 +5,7 @@
     <ProjectGuid>25989e7f-4261-429f-9d98-5130be57afb7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>AlgorithmsAndDataStructures.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>Search;Sort;DataStructures;ExamplePrograms</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>AlgorithmsAndDataStructures</Name>
@@ -22,6 +21,42 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AlgorithmsAndDataStructures.py" />
+    <Compile Include="DataStructures\Node.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataStructures\QueueUsingNode.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataStructures\StackUsingNode.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExamplePrograms\PaymentBuilder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\BinarySearch.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sort\BubbleSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sort\InsertionSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sort\MergeSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sort\QuickSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sort\SelectionSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataStructures\" />
+    <Folder Include="ExamplePrograms\" />
+    <Folder Include="Sort\" />
+    <Folder Include="Search\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
